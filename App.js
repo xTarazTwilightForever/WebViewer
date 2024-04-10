@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <WebView
-        source={{ uri: 'https://stackblitz.com/edit/js-bk1cfm?file=index.js' }}
+        source={{ uri: 'https://js-bk1cfm.stackblitz.io/' }}
         accessibilityTraits={["allowsDirectInteraction"]}
       />
       <StatusBar style="auto" />
